@@ -1,3 +1,4 @@
+import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
 
 const CommonLayout = ({children}: Readonly<{
@@ -6,7 +7,10 @@ const CommonLayout = ({children}: Readonly<{
     return (
         <div>
             <Navbar/>
+            <div className="min-h-screen">
             {children}
+            </div>
+            <Footer/>
         </div>
     );
 };

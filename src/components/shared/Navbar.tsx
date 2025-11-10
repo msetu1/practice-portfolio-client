@@ -29,11 +29,13 @@ const Navbar = () => {
           <li><Link href="/projects" className="hover:text-green-400">Projects</Link></li>
           <li><Link href="/blog" className="hover:text-green-400">Blog</Link></li>
           <li><Link href="/contact" className="hover:text-green-400">Contact</Link></li>
+          <li><Link href="/dashboard" className="hover:text-green-400">Dashboard</Link></li>
           <li>
             <Link href="/login" className="bg-green-500 hover:bg-green-600 hover:rounded-full px-4 py-2 rounded-md font-bold text-white">
               Login
             </Link>
           </li>
+          
           <a href="/setu-resume/resume_of_setu.pdf" download>
                     <button className="flex items-center border hover:rounded-full px-4 py-2 rounded-md font-bold text-sm text-white">
                         <MdOutlineFileDownload /> My resume

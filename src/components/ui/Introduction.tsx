@@ -44,7 +44,7 @@ const Introduction = () => {
                     let's connect! Email me or use the provided information.
                 </p>
                 <div className="flex gap-5">
-                <a href="/setu-resume/resume_of_setu.pdf" download>
+                <a href="/setu-resume/st-setu-resume.pdf" download>
         <button className="flex items-center gap-2 border-2 border-[#15803d] px-2 py-2 rounded-md">
             <MdOutlineFileDownload /> My resume
         </button>
